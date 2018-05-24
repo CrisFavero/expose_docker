@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+
+  expose-static-generator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: expose-static-generator
+    image: expose-static-generator
+    volumes:
+      - ./_input:/expose-input
+      - ./_site:/expose-input/_site
