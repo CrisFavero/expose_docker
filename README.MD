@@ -3,7 +3,6 @@
 Docker Container for the [Expose Static Site Generator](https://github.com/Jack000/Expose)
 
 
-
 ## Building & running
 
 use docker-compose to build and run this `docker-compose build` followed by `docker-compose up`.
